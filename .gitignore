@@ -1,0 +1,45 @@
+# Credentials - NEVER commit these
+.env
+.env.local
+*.pem
+*.key
+
+# Claude Code
+.claude/*
+
+# Pi system prompt (generated at runtime from SOUL.md)
+.pi/SYSTEM.md
+
+# Skills dependencies (installed at runtime in Docker for correct arch)
+skills/*/node_modules/
+
+# Database
+data/
+
+# Node
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Backups from thepopebot upgrades
+.backups/

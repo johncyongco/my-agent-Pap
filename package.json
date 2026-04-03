@@ -1,0 +1,12 @@
+{
+  "name": "my-agent",
+  "private": true,
+  "scripts": {
+    "setup": "thepopebot setup",
+    "setup-telegram": "thepopebot setup-telegram",
+    "reset-auth": "thepopebot reset-auth"
+  },
+  "dependencies": {
+    "thepopebot": "^1.0.0"
+  }
+}
